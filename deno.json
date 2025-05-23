@@ -1,9 +1,5 @@
 {
-  "lock": true,
-  "fmt": { "options": { "lineWidth": 80 } },
   "tasks": {
-    "start": "deno run --allow-net mod.ts",
-    "deploy": "deno deploy --project=my-hls-proxy --token=$DENO_TOKEN"
+    "start": "deno run --allow-net main.ts"
   }
 }
-
